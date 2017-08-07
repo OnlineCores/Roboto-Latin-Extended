@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url("RobotoCondensed-BoldItalic.eot");
+  src: url("RobotoCondensed-BoldItalic.woff2") format("woff2"), url("RobotoCondensed-BoldItalic.woff") format("woff"), url("RobotoCondensed-BoldItalic.ttf") format("truetype"), url("RobotoCondensed-BoldItalic.svg#RobotoCondensed-BoldItalic") format("svg"), url("RobotoCondensed-BoldItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: 700;
+  font-style: italic;
+}

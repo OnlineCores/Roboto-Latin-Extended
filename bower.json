@@ -1,0 +1,29 @@
+{
+  "name": "roboto-latin",
+  "description": "Roboto fonts: Default, Condensed, Slab, Mono and Google material icons.",
+  "main": [
+    "./scss/roboto.scss"
+  ],
+  "authors": [
+    "Mikael Sundström"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "roboto",
+    "fonts",
+    "latin",
+    "css",
+    "scss",
+    "sass",
+    "woff",
+    "woff2",
+    "eot",
+    "svg"
+  ],
+  "homepage": "https://github.com/OnlineCores/roboto-fonts---complete",
+  "ignore": [
+    "**/.*",
+    "**/package.json",
+    "**/config.rb"
+  ]
+}

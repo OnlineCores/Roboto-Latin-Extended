@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Roboto fonts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/roboto.css">
+    <link rel="shortcut icon" href="roboto.ico" type="image/x-icon">
+    <style>
+        #roboto-block,
+        #roboto-block2
+        {
+            font-family: 'Roboto';
+        }
+        #condensed-block,
+        #condensed-block2
+        {
+            font-family: 'Roboto Condensed';
+        }
+        #slab-block,
+        #slab-block2
+        {
+            font-family: 'Roboto Slab';
+        }
+        #mono-block,
+        #mono-block2
+        {
+            font-family: 'Roboto Mono';
+        }
+
+        body
+        {
+            margin: 0;
+            line-height: 1;
+            padding: 0;
+            background-color: #ffffff;
+            color: #303030;
+            font-size: 21px;
+        }
+
+        h3
+        {
+            box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        div.tab-block
+        {
+            display: block;
+            width: 50%;
+            float: left;
+        }
+
+        div.tab-block .tab
+        {
+            float: left;
+        }
+
+        div.tab-block .tab input.switch
+        {
+            display: none;
+        }
+
+        div.tab-block .tab input.switch:checked+label.switch
+        {
+            background: rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+        }
+
+        div.tab-block .tab input.switch:checked+label.switch+div.content
+        {
+            opacity: 1;
+            z-index: 1;
+        }
+
+        div.tab-block .tab label.switch
+        {
+            display: block;
+            position: relative;
+            font-size: 14px;
+            line-height: 39px;
+            padding: 0 16px;
+            background: rgba(0, 0, 0, 0.05);
+            color: rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+
+        div.tab-block .tab div.content
+        {
+            position: absolute;
+            opacity: 0;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tab-block" style="background:#303030;color:#ffffff;">
+        <div class="tab" style="background:#303030;">
+            <input id="roboto-input" class="switch" type="radio" name="tabs" checked="checked" />
+            <label for="roboto-input" class="switch" style="color:#efefef;">Roboto</label>
+            <div id="roboto-block" class="content" style="left:0px;background:#303030;">
+                <h1>Roboto</h1>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100</h3>
+                <p style="font-weight:100">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Regular 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Regular 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500</h3>
+                <p style="font-weight:500">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500 Italic</h3>
+                <p style="font-weight:500;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900</h3>
+                <p style="font-weight:900">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+            </div>
+        </div>
+        <div class="tab">
+            <input id="condensed-input" class="switch" type="radio" name="tabs" />
+            <label for="condensed-input" class="switch" style="color:#efefef;">Condensed</label>
+            <div id="condensed-block" class="content" style="left:0px;background:#303030;">
+                <h1>Roboto Condensed</h1>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100</h3>
+                <p style="font-weight:100">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500</h3>
+                <p style="font-weight:500">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500 Italic</h3>
+                <p style="font-weight:500;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900</h3>
+                <p style="font-weight:900">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+            </div>
+        </div>
+        <div class="tab">
+            <input id="slab-input" class="switch" type="radio" name="tabs" />
+            <label for="slab-input" class="switch" style="color:#efefef;">Slab</label>
+            <div id="slab-block" class="content" style="left:0px;background:#303030;">
+                <h1>Roboto Slab</h1>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100</h3>
+                <p style="font-weight:100">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Regular 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Regular 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500</h3>
+                <p style="font-weight:500">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500</h3>
+                <p style="font-weight:500;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900</h3>
+                <p style="font-weight:900">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+            </div>
+        </div>
+        <div class="tab">
+            <input id="mono-input" class="switch" type="radio" name="tabs" />
+            <label for="mono-input" class="switch" style="color:#efefef;">Mono</label>
+            <div id="mono-block" class="content" style="left:0px;background:#303030;">
+                <h1>Roboto Mono</h1>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100</h3>
+                <p style="font-weight:100">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:100;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:300;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Regular 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:400;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Regular 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500</h3>
+                <p style="font-weight:500">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:500;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Medium 500 Italic</h3>
+                <p style="font-weight:500;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:700;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900</h3>
+                <p style="font-weight:900">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="tab-block">
+        <div class="tab">
+            <input id="roboto-input2" class="switch" type="radio" name="tabs2" checked="checked" />
+            <label for="roboto-input2" class="switch">Roboto</label>
+            <div id="roboto-block2" class="content" style="right:0px">
+                <h1>Roboto</h1>
+
+                <h3 style="font-weight:100">Thin 100</h3>
+                <p style="font-weight:100">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:100">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400">Regular 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400">Regular 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:500">Medium 500</h3>
+                <p style="font-weight:500">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:500;font-style:italic">Medium 500 Italic</h3>
+                <p style="font-weight:500;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700;font-style:italic">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:900">Black 900</h3>
+                <p style="font-weight:900">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:900">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+            </div>
+        </div>
+        <div class="tab">
+            <input id="condensed-input2" class="switch" type="radio" name="tabs2" />
+            <label for="condensed-input2" class="switch">Condensed</label>
+            <div id="condensed-block2" class="content" style="right:0px">
+                <h1>Roboto Condensed</h1>
+
+                <h3 style="font-weight:100">Thin 100</h3>
+                <p style="font-weight:100">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:100">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:300">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400">Light 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400">Light 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:500">Medium 500</h3>
+                <p style="font-weight:500">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:500">Medium 500 Italic</h3>
+                <p style="font-weight:500;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:700">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:900">Black 900</h3>
+                <p style="font-weight:900">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+            </div>
+        </div>
+        <div class="tab">
+            <input id="slab-input2" class="switch" type="radio" name="tabs2" />
+            <label for="slab-input2" class="switch">Slab</label>
+            <div id="slab-block2" class="content" style="right:0px">
+                <h1>Roboto Slab</h1>
+
+                <h3 style="font-weight:100">Thin 100</h3>
+                <p style="font-weight:100">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:100">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:300">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:300">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:400">Regular 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:400">Regular 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:500">Medium 500</h3>
+                <p style="font-weight:500">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:500">Medium 500</h3>
+                <p style="font-weight:500;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:700">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    … . | / \ + - ` ' ´ "‎ # ! ¤ % & ( ) [ ] { }
+                    <> = ? ^ ¨ ~
+                </p>
+
+                <h3 style="font-weight:700">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900">Black 900</h3>
+                <p style="font-weight:900">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+            </div>
+        </div>
+        <div class="tab">
+            <input id="mono-input2" class="switch" type="radio" name="tabs2" />
+            <label for="mono-input2" class="switch">Mono</label>
+            <div id="mono-block2" class="content" style="right:0px">
+                <h1>Roboto Mono</h1>
+
+                <h3 style="font-weight:100">Thin 100</h3>
+                <p style="font-weight:100">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:100">Thin 100 Italic</h3>
+                <p style="font-weight:100;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:300">Light 300</h3>
+                <p style="font-weight:300">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:300">Light 300 Italic</h3>
+                <p style="font-weight:300;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:400">Regular 400</h3>
+                <p style="font-weight:400">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:400">Regular 400 Italic</h3>
+                <p style="font-weight:400;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:500">Medium 500</h3>
+                <p style="font-weight:500">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:500;font-style:italic">Medium 500 Italic</h3>
+                <p style="font-weight:500;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:700">Bold 700</h3>
+                <p style="font-weight:700">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:700;font-style:italic">Bold 700 Italic</h3>
+                <p style="font-weight:700;font-style:italic">
+                    AaBbCcDdEeFfGgHhJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz<br />
+                    0123456789 ÅåÄäÆæÖöØøÜüẞß@§$€£¥₩฿₹₺ℳ<br />
+                    ….|/\+-`'´"#!¤%&()[]{}
+                    <>=?^¨~
+                </p>
+
+                <h3 style="font-weight:900">Black 900</h3>
+                <p style="font-weight:900">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+
+                <h3 style="font-weight:900">Black 900 Italic</h3>
+                <p style="font-weight:900;font-style:italic">
+                    <br />
+                    <br />
+                    <br />
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("RobotoMono-LightItalic.eot");
+  src: url("RobotoMono-LightItalic.woff2") format("woff2"), url("RobotoMono-LightItalic.woff") format("woff"), url("RobotoMono-LightItalic.ttf") format("truetype"), url("RobotoMono-LightItalic.svg#RobotoMono-LightItalic") format("svg"), url("RobotoMono-LightItalic.eot?#iefix") format("embedded-opentype");
+  font-weight: 300;
+  font-style: italic;
+}

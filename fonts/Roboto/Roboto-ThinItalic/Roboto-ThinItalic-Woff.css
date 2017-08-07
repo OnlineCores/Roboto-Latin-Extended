@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic.woff2') format('woff2'),
+         url('Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}

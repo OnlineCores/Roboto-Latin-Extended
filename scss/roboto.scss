@@ -1,0 +1,33 @@
+@import "mixins";
+
+@import "../css/Roboto/Thin-Woff.css";
+@import "../css/Roboto/Thin-Italic-Woff.css";
+@import "../css/Roboto/Light-Woff.css";
+@import "../css/Roboto/Light-Italic-Woff.css";
+@import "../css/Roboto/Regular-Woff.css";
+@import "../css/Roboto/Regular-Italic-Woff.css";
+@import "../css/Roboto/Medium-Woff.css";
+@import "../css/Roboto/Medium-Italic-Woff.css";
+@import "../css/Roboto/Bold-Woff.css";
+@import "../css/Roboto/Bold-Italic-Woff.css";
+@import "../css/Roboto/Black-Woff.css";
+@import "../css/Roboto/Black-Italic-Woff.css";
+
+/*
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+}
+*/
+/*
+$name: 'Roboto';
+$font-files: font-files("Roboto/Roboto-Regular/Roboto-Regular.woff2",
+                        "Roboto/Roboto-Regular/Roboto-Regular.woff");
+$eot: false;
+$weight: 400;
+$style: "normal";
+@include font-face($name, $font-files, $eot, $weight, $style);
+*/

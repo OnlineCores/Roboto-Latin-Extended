@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("RobotoMono-Medium.eot");
+  src: url("RobotoMono-Medium.woff2") format("woff2"), url("RobotoMono-Medium.woff") format("woff"), url("RobotoMono-Medium.ttf") format("truetype"), url("RobotoMono-Medium.svg#RobotoMono-Medium") format("svg"), url("RobotoMono-Medium.eot?#iefix") format("embedded-opentype");
+  font-weight: 500;
+  font-style: normal;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "roboto-latin",
+  "version": "1.0.0",
+  "description": "Roboto fonts: Default, Condensed, Slab, Mono and Google material icons.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "compass watch",
+    "start": "compass watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlineCores/roboto-fonts---complete.git"
+  },
+  "keywords": [
+    "roboto",
+    "fonts",
+    "latin",
+    "css",
+    "scss",
+    "sass",
+    "woff",
+    "woff2",
+    "eot",
+    "svg"
+  ],
+  "author": "Mikael Sundström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnlineCores/roboto-fonts---complete/issues"
+  },
+  "homepage": "https://github.com/OnlineCores/roboto-fonts---complete#readme"
+}

@@ -1,0 +1,8 @@
+@font-face
+{
+    font-family: 'Roboto Condensed';
+    src: url('RobotoCondensed-LightItalic.woff2') format('woff2'),
+         url('RobotoCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}

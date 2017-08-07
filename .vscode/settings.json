@@ -1,0 +1,43 @@
+// __      __       _
+// \ \    / /__ _ _| |__ ____ __  __ _ __ ___
+//  \ \/\/ / _ \ '_| / /(_-< '_ \/ _` / _/ -_)
+//   \_/\_/\___/_| |_\_\/__/ .__/\__,_\__\___|
+//                         |_|
+{
+    "editor.fontSize": 16,
+    "editor.fontWeight": "bold",
+    "editor.tabSize": 4,
+    "editor.tabCompletion": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": false,
+    "editor.renderLineHighlight": "gutter",
+    "files.autoSave": "off",
+    "files.exclude":
+    {
+        //Folders
+        "**/.sass-cache": true,
+        "**/.vscode": true,
+        //Files
+        "**/config.rb": false,
+        "**/.gitignore": false,
+        "**/.npmignore": false,
+        "**/roboto.ico": true,
+        "**/package.json": false
+    },
+    "explorer.enableDragAndDrop": true,
+    "explorer.autoReveal": false,
+    "explorer.openEditors.visible": 0,
+    "window.restoreFullscreen": false,
+    "window.zoomLevel": -0.10,
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Abyss",
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations":
+    {
+        "editor.selectionBackground": "#234499",
+        "editor.background": "#000011",
+        "editorGroupHeader.tabsBackground": "#000011",
+        "scrollbar.shadow": "#000011"
+    }
+}

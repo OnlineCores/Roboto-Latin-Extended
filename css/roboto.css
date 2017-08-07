@@ -1,0 +1,32 @@
+@import url(../css/Roboto/Thin-Woff.css);
+@import url(../css/Roboto/Thin-Italic-Woff.css);
+@import url(../css/Roboto/Light-Woff.css);
+@import url(../css/Roboto/Light-Italic-Woff.css);
+@import url(../css/Roboto/Regular-Woff.css);
+@import url(../css/Roboto/Regular-Italic-Woff.css);
+@import url(../css/Roboto/Medium-Woff.css);
+@import url(../css/Roboto/Medium-Italic-Woff.css);
+@import url(../css/Roboto/Bold-Woff.css);
+@import url(../css/Roboto/Bold-Italic-Woff.css);
+@import url(../css/Roboto/Black-Woff.css);
+@import url(../css/Roboto/Black-Italic-Woff.css);
+
+/*
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
+}
+*/
+
+/*
+$name: 'Roboto';
+$font-files: font-files("Roboto/Roboto-Regular/Roboto-Regular.woff2",
+                        "Roboto/Roboto-Regular/Roboto-Regular.woff");
+$eot: false;
+$weight: 400;
+$style: "normal";
+@include font-face($name, $font-files, $eot, $weight, $style);
+*/
