@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OnlineCores/roboto-fonts---complete.git"
+    "url": "git+https://github.com/OnlineCores/roboto-latin.git"
   },
   "keywords": [
     "roboto",
@@ -26,7 +26,7 @@
   "author": "Mikael Sundström",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OnlineCores/roboto-fonts---complete/issues"
+    "url": "https://github.com/OnlineCores/roboto-latin/issues"
   },
-  "homepage": "https://github.com/OnlineCores/roboto-fonts---complete#readme"
+  "homepage": "https://github.com/OnlineCores/roboto-latin#readme"
 }
