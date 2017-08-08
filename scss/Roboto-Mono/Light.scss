@@ -1,12 +1,8 @@
 @font-face
 {
     font-family: 'Roboto Mono';
-    src: url('RobotoMono-Light.eot');
-    src: url('RobotoMono-Light.woff2') format('woff2'),
-         url('RobotoMono-Light.woff') format('woff'),
-         url('RobotoMono-Light.ttf') format('truetype'),
-         url('RobotoMono-Light.svg#RobotoMono-Light') format('svg'),
-         url('RobotoMono-Light.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Roboto_Mono/Light/Light.woff2') format('woff2'),
+         url('../../fonts/Roboto_Mono/Light/Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }

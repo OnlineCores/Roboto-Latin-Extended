@@ -1,12 +1,8 @@
 @font-face
 {
     font-family: 'Roboto Mono';
-    src: url('RobotoMono-Thin.eot');
-    src: url('RobotoMono-Thin.woff2') format('woff2'),
-         url('RobotoMono-Thin.woff') format('woff'),
-         url('RobotoMono-Thin.ttf') format('truetype'),
-         url('RobotoMono-Thin.svg#RobotoMono-Thin') format('svg'),
-         url('RobotoMono-Thin.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Roboto_Mono/Thin/Thin.woff2') format('woff2'),
+         url('../../fonts/Roboto_Mono/Thin/Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }

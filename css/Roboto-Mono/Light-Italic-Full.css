@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("../../fonts/Roboto_Mono/Light-Italic/Light-Italic.eot");
+  src: url("../../fonts/Roboto_Mono/Light-Italic/Light-Italic.woff2") format("woff2"), url("../../fonts/Roboto_Mono/Light-Italic/Light-Italic.woff") format("woff"), url("../../fonts/Roboto_Mono/Light-Italic/Light-Italic.ttf") format("truetype"), url("../../fonts/Roboto_Mono/Light-Italic/Light-Italic.svg#RobotoMono-LightItalic") format("svg"), url("../../fonts/Roboto_Mono/Light-Italic/Light-Italic.eot?#iefix") format("embedded-opentype");
+  font-weight: 300;
+  font-style: italic;
+}

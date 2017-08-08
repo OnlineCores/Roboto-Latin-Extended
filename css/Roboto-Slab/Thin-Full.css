@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url("../../fonts/Roboto_Slab/Thin/Thin.eot");
+  src: url("../../fonts/Roboto_Slab/Thin/Thin.woff2") format("woff2"), url("../../fonts/Roboto_Slab/Thin/Thin.woff") format("woff"), url("../../fonts/Roboto_Slab/Thin/Thin.ttf") format("truetype"), url("../../fonts/Roboto_Slab/Thin/Thin.svg#RobotoSlab-Thin") format("svg"), url("../../fonts/Roboto_Slab/Thin/Thin.eot?#iefix") format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal;
+}

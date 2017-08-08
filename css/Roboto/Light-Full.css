@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("./../../fonts/Roboto/Light/Light.eot");
+  src: url("./../../fonts/Roboto/Light/Light.woff2") format("woff2"), url("./../../fonts/Roboto/Light/Light.woff") format("woff"), url("./../../fonts/Roboto/Light/Light.ttf") format("truetype"), url("./../../fonts/Roboto/Light/Light.svg#Roboto-Light") format("svg"), url("./../../fonts/Roboto/Light/Light.eot?#iefix") format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("../../fonts/Roboto_Mono/Medium/Medium.eot");
+  src: url("../../fonts/Roboto_Mono/Medium/Medium.woff2") format("woff2"), url("../../fonts/Roboto_Mono/Medium/Medium.woff") format("woff"), url("../../fonts/Roboto_Mono/Medium/Medium.ttf") format("truetype"), url("../../fonts/Roboto_Mono/Medium/Medium.svg#RobotoMono-Medium") format("svg"), url("../../fonts/Roboto_Mono/Medium/Medium.eot?#iefix") format("embedded-opentype");
+  font-weight: 500;
+  font-style: normal;
+}

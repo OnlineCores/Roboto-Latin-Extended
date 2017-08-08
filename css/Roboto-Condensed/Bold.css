@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Roboto Condensed';
-  src: url("RobotoCondensed-Bold.eot");
-  src: url("RobotoCondensed-Bold.woff2") format("woff2"), url("RobotoCondensed-Bold.woff") format("woff"), url("RobotoCondensed-Bold.ttf") format("truetype"), url("RobotoCondensed-Bold.svg#RobotoCondensed-Bold") format("svg"), url("RobotoCondensed-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("../../fonts/Roboto_Condensed/Bold/Bold.woff2") format("woff2"), url("../../fonts/Roboto_Condensed/Bold/Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }

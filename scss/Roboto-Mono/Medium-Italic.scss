@@ -1,12 +1,8 @@
 @font-face
 {
     font-family: 'Roboto Mono';
-    src: url('RobotoMono-MediumItalic.eot');
-    src: url('RobotoMono-MediumItalic.woff2') format('woff2'),
-         url('RobotoMono-MediumItalic.woff') format('woff'),
-         url('RobotoMono-MediumItalic.ttf') format('truetype'),
-         url('RobotoMono-MediumItalic.svg#RobotoMono-MediumItalic') format('svg'),
-         url('RobotoMono-MediumItalic.eot?#iefix') format('embedded-opentype');
+    src: url('../../fonts/Roboto_Mono/Medium-Italic/Medium-Italic.woff2') format('woff2'),
+         url('../../fonts/Roboto_Mono/Medium-Italic/Medium-Italic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
 }

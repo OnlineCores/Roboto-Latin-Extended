@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Roboto Slab';
-  src: url("RobotoSlab-Light.eot");
-  src: url("RobotoSlab-Light.woff2") format("woff2"), url("RobotoSlab-Light.woff") format("woff"), url("RobotoSlab-Light.ttf") format("truetype"), url("RobotoSlab-Light.svg#RobotoSlab-Light") format("svg"), url("RobotoSlab-Light.eot?#iefix") format("embedded-opentype");
+  src: url("../../fonts/Roboto_Slab/Light/Light.woff2") format("woff2"), url("../../fonts/Roboto_Slab/Light/Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
