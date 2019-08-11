@@ -1,5 +1,5 @@
 {
-  "name": "roboto-latin",
+  "name": "roboto-latin-extended",
   "description": "Roboto fonts: Default, Condensed, Slab, Mono and Google material icons.",
   "main": [
     "./scss/roboto.scss"
@@ -20,7 +20,7 @@
     "eot",
     "svg"
   ],
-  "homepage": "https://github.com/OnlineCores/roboto-latin",
+  "homepage": "https://github.com/OnlineCores/Roboto-Latin-Extended",
   "ignore": [
     "**/.*",
     "**/package.json",

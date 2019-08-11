@@ -3,3 +3,4 @@
 .vscode
 bower.json
 config.rb
+node_modules

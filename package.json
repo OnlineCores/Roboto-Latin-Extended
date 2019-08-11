@@ -1,5 +1,5 @@
 {
-  "name": "roboto-latin",
+  "name": "roboto-latin-extended",
   "version": "1.0.0",
   "description": "Roboto fonts: Default, Condensed, Slab, Mono and Google material icons.",
   "main": "index.js",
@@ -9,12 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OnlineCores/roboto-latin.git"
+    "url": "git+https://github.com/OnlineCores/Roboto-Latin-Extended.git"
   },
   "keywords": [
     "roboto",
     "fonts",
     "latin",
+    "latin-extended",
     "css",
     "scss",
     "sass",
@@ -26,7 +27,7 @@
   "author": "Mikael Sundström",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OnlineCores/roboto-latin/issues"
+    "url": "https://github.com/OnlineCores/Roboto-Latin-Extended/issues"
   },
-  "homepage": "https://github.com/OnlineCores/roboto-latin#readme"
+  "homepage": "https://github.com/OnlineCores/Roboto-Latin-Extended#readme"
 }
